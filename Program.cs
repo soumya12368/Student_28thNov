@@ -14,7 +14,7 @@ class Program
             string[] lines = File.ReadAllLines(filePath);
 
             // Display header
-            Console.WriteLine("Student Data:");
+            Console.WriteLine("Rainbow School Student Data:");
 
             // Display each line (student information)
             foreach (var line in lines)
